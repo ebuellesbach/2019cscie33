@@ -1,0 +1,28 @@
+body {
+	background-color: lightblue;
+}
+
+@media screen and (min-width: 700px){
+	body{
+		background-color: lightgreen;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	body{
+		background-color: lavender;
+	}
+}
+
+#top, #middle {
+	background-color: pink;
+}
+
+ol li {
+	color: blue;
+}
+
+input[type="text"] {
+	background-color: green;
+}
+

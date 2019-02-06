@@ -1,0 +1,19 @@
+$color: blue;
+
+body {
+	background-color: lightblue;
+}
+
+#top, #middle {
+	background-color: pink;
+}
+
+ol {
+	li {
+		color: $color;
+	}	
+}
+
+input[type="text"] {
+	background-color: $color;
+}

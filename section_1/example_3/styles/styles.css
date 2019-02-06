@@ -1,0 +1,15 @@
+body {
+	background-color: lightblue;
+}
+
+#top, #middle {
+	background-color: pink;
+}
+
+ol > li {
+	color: blue;
+}
+
+input[type="text"] {
+	background-color: green;
+}
