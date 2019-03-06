@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+
+            document.addEventListener('DOMContentLoaded', () => {
+                setInterval(task, 1000);
+            });
+
+            let counter = 0;
+
+            function task() {
+                counter++;
+                const li = document.createElement('li');
+                li.innerHTML = counter;
+                document.querySelector('#tasks').append(li);
+            }
+
+        </script>
+        <title>My Website</title>
+    </head>
+    <body>
+        <h1>Tasks</h1>
+        <ul id="tasks">
+        </ul>
+    </body>
+</html>
